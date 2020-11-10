@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Background generator</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Background generator</h1>
+	<div class="flexbox h2box">
+		<h2 class="addcolorinput" id="addcolorinput">Add a color</h2>
+		<h2 class="generate" id="generate">Feeling lucky</h2>
+	</div>	
+	<div class="gridbox">
+		<div class="flexbox flexwrap" id="colordiv">
+			<input type="color" class="colorinput" id="color1">
+			<input type="color" class="colorinput" id="color2">
+		</div>
+		<div class="flexbox">
+			<div class="sliderbox" id="sliderbox">
+				<div class="slideritem" id="slideitem1">Linear</div>
+				<div class="slideritem" id="slideitem2">Radial</div>
+				<div class="sliderselector" id="sliderselector"></div>
+
+			</div>
+			<div class="angleselector" id="angleselector">
+				<div class="circle" id="circle">	
+				</div>
+				<div class="anglebar" id="anglebar">
+				</div>
+			</div>
+		</div>
+		<div class="codecontainer center" id="codecontainer">
+			<div class="codeliner" id="codeliner">1</div>
+			<div class="code" id="code">my code here ...<br>second line</div>
+			<button class="copybtn" id="copybtn">Copy me</button>
+			<div class="copied" id="copied">Text copied !</div>
+		</div>
+		<script type="text/javascript" src="script.js"></script>
+	</div>
+</body>
+</html>
