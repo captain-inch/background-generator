@@ -82,6 +82,7 @@ h2:hover:before {
 }
 
 .colorinput{
+	margin-top:30px;
 	margin:20px 50px;
 	cursor: pointer;
 	/*transform: translateX(-100px);*/
